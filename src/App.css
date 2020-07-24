@@ -1,0 +1,87 @@
+.App {
+  position: relative;
+  top: 50px;
+}
+
+.header {
+  display: block;
+  background-color: #F2F2F2;
+  border-style: solid;
+  border-color: red;
+  width: 350px;
+  height: 70px;
+  text-align: center;
+  padding-top: 6px;
+  position: relative;
+  left: 38%;
+}
+
+.listContainer {
+  display: block;
+  background-color: #F2F2F2;
+  border-style: solid;
+  border-color: blue;
+  width: 350px;
+  height: 168px;
+  position: relative;
+  left: 38%;
+  top: 2px;
+  overflow: auto;
+}
+
+.task {
+  display: block;
+  background-color: #F2F2F2;
+  border-style: solid;
+  border-color: grey;
+  width: 342px;
+  height: 50px;
+ }
+
+ .form {
+  display: block;
+  background-color: #F2F2F2;
+  border-style: solid;
+  border-color: green;
+  width: 350px;
+  height: 70px;
+  padding-top: 6px;
+  position: relative;
+  left: 38%;
+  top: 4px;
+}
+
+#name, #submit {
+  height: 40px;
+  position: relative;
+  left: 15px;
+  top: 5px;
+  margin-right: 10px;
+  border-radius: 5px;
+  background-color: #DFF4F1;
+}
+
+#name {
+  width: 220px;
+}
+
+#submit {
+  width: 80px;
+}
+
+#float {
+  float: right;
+  position: relative;
+  right: 5px;
+}
+
+#warning {
+  font-size: smaller;
+  color: red;
+  position: relative;
+  left: 15px;
+  bottom: 5px;
+}
+
+
+
